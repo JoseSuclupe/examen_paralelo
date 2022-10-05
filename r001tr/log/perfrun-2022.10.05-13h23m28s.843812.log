@@ -1,0 +1,108 @@
+8 [140051748405376] INFO perfrun.launcher <> - Launcher main begin
+20 [140051748405376] INFO perfrun.launcher <> - MessageCatalogInit finished
+20 [140051748405376] INFO perfrun.launcher <> - Launcher instance created
+20 [140051748405376] INFO perfrun.launcher <> - argc = 7; cmdline = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 8 --option-file /home/u167862/INICTEL/examen/examen/r001tr/config/runss.options 
+146 [140051748405376] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+146 [140051748405376] INFO perfrun.launcher <> - create file finder object
+146 [140051748405376] INFO perfrun.launcher <> - create a result directory: pattern = /home/u167862/INICTEL/examen/examen/r001tr pid = 4294967295
+152 [140051748405376] INFO perfrun.sdk <> - checked that the directory /home/u167862/INICTEL/examen/examen/r001tr is a local directory
+152 [140051748405376] INFO perfrun.sdk <> - the directory /home/u167862/INICTEL/examen/examen/r001tr is located on a share or its FS ID is unknown 26985
+152 [140051748405376] INFO perfrun.sdk <> - checked that the directory /home/u167862/tmp/amplxe-tmp-u167862 is a local directory
+153 [140051748405376] INFO perfrun.sdk <> - the directory /home/u167862/tmp/amplxe-tmp-u167862 is located on a share or its FS ID is unknown 26985
+192 [140051748405376] INFO perfrun.launcher <> - create data directory = /home/u167862/INICTEL/examen/examen/r001tr/data.0
+198 [140051748405376] INFO perfrun.launcher <> - Creating the master collection flag
+204 [140051748405376] INFO perfrun.launcher <> - Done creating the master collection flag
+206 [140051734550272] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+206 [140051734550272] INFO perfrun.sdk <> - Allocating TMU :/home/u167862/INICTEL/examen/examen/r001tr/data.0/systemcollector-843812-s001-n158.sc
+212 [140051734550272] INFO perfrun.system <> - Tpss based collection
+212 [140051734550272] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+212 [140051734550272] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+212 [140051734550272] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+212 [140051734550272] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+212 [140051734550272] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+212 [140051734550272] INFO perfrun.mrte <> - system-wide mode is 0
+212 [140051734550272] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+472 [140051734550272] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/u167862/INICTEL/examen/examen/r001tr/data.0
+472 [140051734550272] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=s001-n158
+472 [140051734550272] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime
+472 [140051734550272] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vpl/2022.2.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/tbb/2021.7.0/env/../lib/intel64/gcc4.8:/glob/development-tools/versions/oneapi/2022.3/oneapi/rkcommon/1.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray_studio/0.11.1/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray/2.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/openvkl/1.3.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/oidn/1.4.3/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//libfabric/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib/release:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mkl/2022.2.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/itac/2021.7.0/slib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ispc/1.18.0/lib/lib64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ippcp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/embree/3.13.4/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dnnl/2022.2.0/cpu_dpcpp_gpu_dpcpp/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/gdb/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/libipt/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/dep/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dal/2021.7.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/x64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/oclfpga/host/linux64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/compiler/lib/intel64_lin:/glob/development-tools/versions/oneapi/2022.3/oneapi/ccl/2021.7.0/lib/cpu_gpu_dpcpp
+472 [140051734550272] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+472 [140051734550272] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+472 [140051734550272] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+472 [140051734550272] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+472 [140051734550272] INFO perfrun.mrte <> - Data directory: /home/u167862/INICTEL/examen/examen/r001tr/data.0
+472 [140051734550272] INFO perfrun.mrte <> - Mrte plugin is initialized
+472 [140051734550272] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+472 [140051734550272] INFO perfrun.tpss <> - initialize tpss controller
+472 [140051734550272] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+473 [140051734550272] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+473 [140051734550272] INFO perfrun.tpss <> - configure collection mode: value = threading:stack
+473 [140051734550272] INFO perfrun.tpss <> - configure collection mode: value = waiting:stack
+473 [140051734550272] INFO perfrun.tpss <> - configure collection mode: value = io:stack
+473 [140051734550272] INFO perfrun.tpss <> - default obj-size-min=1024
+473 [140051734550272] INFO perfrun.tpss <> - default hash-table-size=0
+473 [140051734550272] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+473 [140051734550272] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+473 [140051748405376] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vpl/2022.2.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/tbb/2021.7.0/env/../lib/intel64/gcc4.8:/glob/development-tools/versions/oneapi/2022.3/oneapi/rkcommon/1.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray_studio/0.11.1/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray/2.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/openvkl/1.3.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/oidn/1.4.3/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//libfabric/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib/release:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mkl/2022.2.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/itac/2021.7.0/slib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ispc/1.18.0/lib/lib64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ippcp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/embree/3.13.4/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dnnl/2022.2.0/cpu_dpcpp_gpu_dpcpp/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/gdb/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/libipt/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/dep/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dal/2021.7.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/x64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/oclfpga/host/linux64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/compiler/lib/intel64_lin:/glob/development-tools/versions/oneapi/2022.3/oneapi/ccl/2021.7.0/lib/cpu_gpu_dpcpp
+474 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime/libittnotify_collector.so
+474 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime/libittnotify_collector.so
+474 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+474 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime/libittnotify_collector.so
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime/libittnotify_collector.so
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime/libittnotify_collector.so:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime/libittnotify_collector.so
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/u167862/INICTEL/examen/examen/r001tr/data.0
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = s001-n158
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/runtime:/glob/development-tools/versions/oneapi/2022.3/oneapi/vpl/2022.2.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/tbb/2021.7.0/env/../lib/intel64/gcc4.8:/glob/development-tools/versions/oneapi/2022.3/oneapi/rkcommon/1.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray_studio/0.11.1/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ospray/2.10.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/openvkl/1.3.0/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/oidn/1.4.3/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//libfabric/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib/release:/glob/development-tools/versions/oneapi/2022.3/oneapi/mpi/2021.7.0//lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/mkl/2022.2.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/itac/2021.7.0/slib:/glob/development-tools/versions/oneapi/2022.3/oneapi/ispc/1.18.0/lib/lib64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ippcp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/ipp/2021.6.1/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/embree/3.13.4/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dnnl/2022.2.0/cpu_dpcpp_gpu_dpcpp/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/gdb/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/libipt/intel64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/debugger/2021.7.0/dep/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/dal/2021.7.0/lib/intel64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/x64:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/lib/oclfpga/host/linux64/lib:/glob/development-tools/versions/oneapi/2022.3/oneapi/compiler/2022.2.0/linux/compiler/lib/intel64_lin:/glob/development-tools/versions/oneapi/2022.3/oneapi/ccl/2021.7.0/lib/cpu_gpu_dpcpp
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+475 [140051748405376] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+476 [140051748405376] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+476 [140051748405376] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+478 [140051748405376] INFO perfrun.launcher <> - Launcher: command line to start before modification = /home/u167862/INICTEL/examen/examen/random_matrix1
+499 [140051748405376] INFO perfrun.launcher <> - Launcher: command line to start after modification = /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/bin64/pin -error_file /home/u167862/INICTEL/examen/examen/r001tr/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib64/libtpsstool.so -t /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/lib32/libtpsstool.so -server_name tpss_ipc.843812 -prd_dir /glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0 -- /home/u167862/INICTEL/examen/examen/random_matrix1
+499 [140051748405376] INFO perfrun.launcher <> - ProcessCreator object was created
+501 [140051748405376] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+507 [140051734550272] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+507 [140051734550272] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+511 [140051734550272] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+512 [140051734550272] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:448
+665 [140051734550272] INFO perfrun.vdso <> - Helper runtool '/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/bin32/amplxe-runss -dump-vdso -r /home/u167862/INICTEL/examen/examen/r001tr --tmp-dir /home/u167862/tmp/amplxe-tmp-u167862' returned 1
+1008 [140051734550272] INFO perfrun.vdso <> - Helper runtool '/glob/development-tools/versions/oneapi/2022.3/oneapi/vtune/2022.4.0/bin64/amplxe-runss -dump-vdso -r /home/u167862/INICTEL/examen/examen/r001tr --tmp-dir /home/u167862/tmp/amplxe-tmp-u167862' returned 0
+1008 [140051734550272] INFO perfrun.itt <> - start itt controller for pid #843817
+1009 [140051734550272] INFO perfrun.tpss <> - start tpss controller for pid #843817
+1061 [140051748405376] INFO perfrun.launcher <> - Launcher: all plugins were started
+1061 [140051748405376] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1061 [140051748405376] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1061 [140051748405376] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1061 [140051748405376] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1062 [140051748405376] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1091 [140051748405376] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+14480 [140051748405376] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+14495 [140051734550272] INFO perfrun.itt <> - detach itt controller
+14495 [140051734550272] INFO perfrun.itt <> - detach itt controller done
+14495 [140051734550272] INFO perfrun.tpss <> - stop tpss controller
+14499 [140051734550272] INFO perfrun.sdk <> - De-allocating TMU: /home/u167862/INICTEL/examen/examen/r001tr/data.0/systemcollector-843812-s001-n158.sc
+14499 [140051734550272] INFO perfrun.system <> - closed the system trace file: /home/u167862/INICTEL/examen/examen/r001tr/data.0/systemcollector-843812-s001-n158.sc
+14499 [140051748405376] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+14499 [140051748405376] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+14499 [140051748405376] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+14499 [140051748405376] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+14499 [140051748405376] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+14505 [140051748405376] INFO perfrun.launcher <> - Application exit code: 0
+14505 [140051748405376] INFO perfrun.launcher <> - Exit code: 0
