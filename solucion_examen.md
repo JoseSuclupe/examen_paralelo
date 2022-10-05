@@ -55,3 +55,9 @@ real	0m0.094s
 user	0m0.031s
 
 speedup = 28
+
+## ENSAYO
+### Pregunta 1
+A. He aprendido los fundamentos básicos de programación paralela en CPUs. Las aplicaciones de OPENMP para un nodo, y MPI para conectar varios nodos.
+B. Le daría aplicaciones en procesamiento de señales, especificamente en paralelizar algoritmos de procesamiento de señales de radar. Ya que muchas veces uno se enfrenta a escenarios donde hay mucha data cruda y en estos casos es necesario tener algoritmos corriendo en paralelo ya que muchas veces los recursos computacionales son limitados y se debe tener la máxima eficiencia para sistemas que funcionan de manera continua (24 x 7).
+
